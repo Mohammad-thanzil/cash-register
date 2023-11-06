@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Cash Register</title>
 </head>
+
 <body>
+<div class="for-center">
     <div class="container">
         <h1 class="heading"> Cash Register Manager</h1>
         <p class="description">
             Enter the bill amount and cash given by the customer and know minimum number of notes to return.
         </p>
         <label for="bill-amount">Bill Amount:</label>
-        <input id="bill-amount" type="text" />
+        <input id="bill-amount" type="text" 12 />
+
         <!-- <button id="">Next</button>  -->
         <label for="cash-given">Cash Give:</label>
         <input id="cash-given" type="text" />
-        <button id="check-button" >check</button>
+
+
+
+        <button id="check-button">check</button>
         <p id="error-messege"></p>
         <table class="change-table">
             <caption>Return Changes</caption>
@@ -41,13 +48,11 @@
                 <td>5</td>
                 <td>1</td>
             </tr>
-            </table>
-   
-   
-   
-   
+        </table>
     </div>
-    
+</div>
+
+    <script src="/index.js"></script>
 </body>
-<script src="/index.js"></script>
+
 </html>
